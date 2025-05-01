@@ -7,6 +7,8 @@ spec:
     storage: 1Gi
   accessModes:
     - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: ""
   hostPath:
-    path: "/mnt/website"  # Ruta que montaremos con minikube mount
-    type: Directory
+    path: "/mnt/website"
+    type: DirectoryOrCreate
