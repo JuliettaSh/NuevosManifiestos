@@ -35,3 +35,6 @@ Este proyecto implementa el despliegue de una página web estática en un clúst
 * Los cambios se reflejarán automáticamente en el pod gracias al montaje persistente
 
 # Si no tienes ganas de hacer todo eso, solo ejecuta este script en linux
+descarga los sh y ejecutalos usando primero el comando para darles permiso
+* chmod +x script.sh
+
